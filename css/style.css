@@ -77,6 +77,8 @@ html, body {
         flex-direction: row;
         justify-content: center;
         color: #837E9F;
+        font-weight: 200;
+        font-size: 14px;
 }
 
 
@@ -174,17 +176,6 @@ html, body {
     font-style: italic;
     font-weight: 200;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 /* MISC | MY PROJECTS AND RECENTS POSTS */ 
 
@@ -320,4 +311,59 @@ html, body {
 
 .title-recents > h1 {
     font-size: 20px;
+}
+
+/* POSTS */
+
+.posts {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.post {
+    display: flex;
+}
+
+.post-group {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 10px;
+}
+
+.time-post > p {
+    font-size: 13px;
+    font-weight: 200;
+    margin-top: 5px;
+}
+
+.img-post > img {
+    width: 120px;
+}
+
+.descricao-post {
+    margin: 10px 0;
+}
+
+.hashtag-group {
+    display: flex;
+}
+
+.hashtag {
+    font-size: 13px;
+    font-weight: 400;
+    padding-right: 10px;
+    padding-top: 5px;
+}
+
+/* FOOTER */
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+footer > p{
+    margin-bottom: 5px;
+
 }
